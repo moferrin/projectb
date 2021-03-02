@@ -1,0 +1,6 @@
+wget https://sourceforge.net/projects/squirrelmail/files/stable/1.4.22/squirrelmail-webmail-1.4.22.zip
+unzip squirrelmail-webmail-1.4.22.zip
+sudo mv squirrelmail-webmail-1.4.22 /var/www/html/
+sudo chown -R www-data:www-data /var/www/html/squirrelmail-webmail-1.4.22/
+sudo chmod 755 -R /var/www/html/squirrelmail-webmail-1.4.22/
+sudo mv /var/www/html/squirrelmail-webmail-1.4.22/ /var/www/html/squirrelmail
